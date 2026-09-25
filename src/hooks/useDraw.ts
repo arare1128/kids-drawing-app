@@ -26,7 +26,7 @@ const useDraw = (canvasRef: RefObject<HTMLCanvasElement | null>) => {
       const ctx = canvasRef.current?.getContext('2d');
       if (!ctx) return;
       const img = new Image();
-      img.src = '/stamp.svg';
+      img.src = '/stamp.png';
       img.onload = () => {
         ctx.drawImage(img, point.x - 36, point.y - 36, 72, 72);
       };

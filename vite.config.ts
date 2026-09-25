@@ -9,7 +9,7 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['stamp.svg', 'icon-192.svg', 'icon-512.svg'],
+      includeAssets: ['stamp.png', 'icon-192.svg', 'icon-512.svg'],
       manifest: {
         name: 'にこにこお絵かき',
         short_name: 'お絵かき',
