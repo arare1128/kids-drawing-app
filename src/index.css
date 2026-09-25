@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Nunito", "Hiragino Maru Gothic ProN", "Yu Gothic", sans-serif;
+  color: #4b4035;
+  background: #fffdf7;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-width: 320px;
+  height: 100%;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  font: inherit;
+}
